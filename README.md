@@ -40,11 +40,24 @@ This repository contains three Convolutional Neural Network (CNN) projects devel
 ```
 CNN-Projects/
 │
-├── Image-Classification/
-├── Face-Recognition/
-├── Breast-Cancer-Detection/
 ├── README.md
-└── requirements.txt
+├── requirements.txt
+├── LICENSE
+│
+├── Image-Classification/
+│   ├── image_classification.ipynb
+│   ├── README.md
+│   └── screenshots/
+│
+├── Face-Recognition/
+│   ├── face_recognition.ipynb
+│   ├── README.md
+│   └── screenshots/
+│
+└── Breast-Cancer-Detection/
+    ├── breast_cancer_detection.ipynb
+    ├── README.md
+    └── screenshots/
 ```
 
 ## Installation
