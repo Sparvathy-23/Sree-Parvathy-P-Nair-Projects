@@ -89,6 +89,44 @@ A deep learning model designed to classify grayscale clothing images into one of
 
 ---
 
+## 5. MNIST Digit Classifier
+
+**Dataset:** MNIST Handwritten Digits
+
+**Technologies:** Python, TensorFlow, Keras, Flask, HTML, CSS
+
+A deep learning web application that recognizes handwritten digits (0–9) using a Convolutional Neural Network (CNN). Users can upload an image of a handwritten digit through a web interface, and the trained model predicts the digit along with its confidence score. The project demonstrates the deployment of a CNN model using Flask with a simple and responsive frontend.
+
+**Key Features**
+- Upload handwritten digit images
+- CNN-based digit prediction
+- Confidence score for predictions
+- Image preview before prediction
+- Responsive web interface
+- Deployable on Render
+
+---
+
+# Technologies Used
+
+- Python
+- TensorFlow
+- Keras
+- LangChain
+- FAISS
+- Sentence Transformers
+- Google Gemini API
+- Streamlit
+- Flask
+- HTML
+- CSS
+- NumPy
+- Matplotlib
+- Scikit-learn
+- MedMNIST
+
+---
+
 # Repository Structure
 
 ```
@@ -99,35 +137,37 @@ AI-ML-Projects/
 │
 ├── CHATBOT/
 │   ├── app.py
-│   ├── vector_store.py
-│   ├── rag.py
 │   ├── loader.py
 │   ├── chunking.py
 │   ├── embeddings.py
+│   ├── rag.py
 │   ├── similarity_search.py
 │   ├── utils.py
+│   ├── vector_store.py
 │   ├── data/
 │   ├── vectorstore/
 │   └── results/
 │
 ├── Breast-Cancer-Detection/
 │   ├── breast_cancer_detection.ipynb
-│   ├── README.md
-│   └── screenshots/
+│   └── README.md
 │
 ├── Face-Recognition/
 │   ├── face_recognition.ipynb
-│   ├── README.md
-│   └── screenshots/
+│   └── README.md
 │
-└── Image-Classification/
-    ├── image_classification.ipynb
+├── Image-Classification/
+│   ├── image_classification.ipynb
+│   └── README.md
+│
+└── MNIST-Digit-Classifier/
+    ├── app.py
+    ├── mnist_cnn.keras
+    ├── requirements.txt
     ├── README.md
-    └── screenshots/
+    ├── templates/
+    └── static/
 ```
-
----
-
 # Installation
 
 Clone the repository:
@@ -158,14 +198,17 @@ GOOGLE_API_KEY=YOUR_API_KEY
 
 # Repository Highlights
 
-- Deep Learning using Convolutional Neural Networks
+- Retrieval-Augmented Generation (RAG)
+- Large Language Model Integration using Google Gemini
+- Semantic Search using FAISS
+- Streamlit-based AI Chatbot
+- Convolutional Neural Networks (CNN)
 - Medical Image Classification
 - Face Recognition
 - Fashion Image Classification
-- Retrieval-Augmented Generation (RAG)
-- Semantic Search with FAISS
-- Google Gemini LLM Integration
-- Interactive Streamlit Web Application
+- Handwritten Digit Recognition
+- Flask Web Application Development
+- Deep Learning Model Deployment
 
 ---
 
