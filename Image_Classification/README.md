@@ -75,9 +75,8 @@ The trained CNN successfully learns meaningful image features and achieves good 
 ```
 CIFAR-10-Image-Classification/
 │
-├── cifar10_classification.ipynb
+├── cifar_10_image_classification.ipynb
 ├── README.md
-└── results/
 ```
 
 ## Installation
