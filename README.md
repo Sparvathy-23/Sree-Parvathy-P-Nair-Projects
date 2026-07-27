@@ -1,117 +1,82 @@
 # Sree-Parvathy-P-Nair_AI-ML-Projects
 
-A collection of Artificial Intelligence and Machine Learning projects developed using Python, TensorFlow, LangChain, FAISS, and Google Gemini. The repository demonstrates applications of deep learning, computer vision, and Retrieval-Augmented Generation (RAG) across different domains.
+A collection of Artificial Intelligence and Machine Learning projects developed using Python, TensorFlow, Scikit-learn, Reinforcement Learning, NLP, and Large Language Models. This repository demonstrates applications across computer vision, medical image analysis, recommendation systems, reinforcement learning, retrieval-augmented generation (RAG), and machine learning.
 
----
+## Projects
 
-# Projects
-
-## 1. AI PDF RAG Chatbot
+### 1. AI PDF RAG Chatbot
+A Retrieval-Augmented Generation (RAG) chatbot that answers questions from uploaded PDF documents using LangChain, FAISS, Sentence Transformers, Google Gemini, and Streamlit.
 
 **Technologies:** Python, LangChain, FAISS, Sentence Transformers, Google Gemini, Streamlit
 
-A Retrieval-Augmented Generation (RAG) chatbot that answers questions from uploaded PDF documents. The system extracts text from PDFs, splits it into chunks, generates embeddings using Sentence Transformers, stores them in a FAISS vector database, retrieves the most relevant information through semantic search, and uses Google's Gemini model to generate accurate, context-aware responses.
+---
 
-**Key Features**
-- PDF document loading and preprocessing
-- Text chunking and embedding generation
-- FAISS vector database
-- Semantic similarity search
-- Gemini-powered question answering
-- Interactive Streamlit interface
-- Chat history and source document retrieval
+### 2. Adult Census Income Classification
+A machine learning project that predicts whether an individual's annual income exceeds $50K using demographic and employment-related features. Multiple classification algorithms are trained and compared.
+
+**Technologies:** Python, Pandas, NumPy, Scikit-learn
 
 ---
 
-## 2. Breast Cancer Detection
-
-**Dataset:** BreastMNIST
-
-**Technologies:** Python, TensorFlow, Keras, MedMNIST
-
-A Convolutional Neural Network (CNN) model developed to classify breast medical images as part of a computer-aided diagnosis system. The project focuses on medical image classification using deep learning techniques to distinguish between different image classes.
-
-**Key Features**
-- CNN-based medical image classification
-- Data preprocessing and normalization
-- Model training and evaluation
-- Performance visualization using accuracy and loss graphs
-
----
-
-## 3. Face Recognition
-
-**Dataset:** Labeled Faces in the Wild (LFW)
+### 3. Brain MRI Tumor Detection
+A CNN-based deep learning model that classifies brain MRI images into multiple tumor categories and healthy brain images.
 
 **Technologies:** Python, TensorFlow, Keras
 
-A CNN-based face recognition system that learns facial features from images and identifies individuals. The project demonstrates image preprocessing, feature extraction, and deep learning techniques for facial recognition.
-
-**Key Features**
-- Face image preprocessing
-- CNN architecture for feature learning
-- Model training and prediction
-- Performance evaluation and visualization
-
 ---
 
-## 4. Image Classification
-
-**Dataset:** Fashion-MNIST
+### 4. Face Recognition
+A Convolutional Neural Network trained on the Labeled Faces in the Wild (LFW) dataset to recognize individuals from facial images captured under real-world conditions.
 
 **Technologies:** Python, TensorFlow, Keras
 
-A deep learning model designed to classify grayscale clothing images into one of ten Fashion-MNIST categories using Convolutional Neural Networks. The project demonstrates the complete workflow of image preprocessing, CNN model development, training, and evaluation.
+---
 
-**Key Features**
-- Fashion-MNIST image classification
-- CNN model implementation
-- Training and validation
-- Accuracy and loss analysis
-- Prediction on test images
+### 5. Image Classification
+A Convolutional Neural Network that performs multi-class image classification on the CIFAR-10 dataset, recognizing objects across ten different categories.
+
+**Technologies:** Python, TensorFlow, Keras
 
 ---
 
-# Technologies Used
+### 6. Handwritten Digit Recognition Web Application
+A CNN-powered web application that recognizes handwritten digits (0–9). The trained model is deployed using Flask with a responsive HTML/CSS frontend and is ready for cloud deployment.
+
+**Technologies:** Python, TensorFlow, Flask, HTML, CSS
+
+---
+
+### 7. CartPole Reinforcement Learning using PPO
+A reinforcement learning agent trained to balance a pole on a moving cart using the Proximal Policy Optimization (PPO) algorithm.
+
+**Technologies:** Python, Gymnasium, Stable-Baselines3, PyTorch
+
+---
+
+### 8. Lunar Lander Reinforcement Learning using PPO
+A PPO-based reinforcement learning agent that learns to safely land a spacecraft in the LunarLander-v3 environment.
+
+**Technologies:** Python, Gymnasium, Stable-Baselines3, PyTorch
+
+---
+
+### 9. Movie Recommendation System
+A content-based recommendation system that suggests similar movies using TF-IDF vectorization and cosine similarity over movie metadata.
+
+**Technologies:** Python, Pandas, Scikit-learn
+
+---
+
+## Technologies Used
 
 - Python
 - TensorFlow
 - Keras
-- LangChain
-- FAISS
-- Sentence Transformers
-- Google Gemini API
-- Streamlit
+- Scikit-learn
+- Pandas
 - NumPy
 - Matplotlib
-- Scikit-learn
-- MedMNIST
-
----
-
-## 5. MNIST Digit Classifier
-
-**Dataset:** MNIST Handwritten Digits
-
-**Technologies:** Python, TensorFlow, Keras, Flask, HTML, CSS
-
-A deep learning web application that recognizes handwritten digits (0–9) using a Convolutional Neural Network (CNN). Users can upload an image of a handwritten digit through a web interface, and the trained model predicts the digit along with its confidence score. The project demonstrates the deployment of a CNN model using Flask with a simple and responsive frontend.
-
-**Key Features**
-- Upload handwritten digit images
-- CNN-based digit prediction
-- Confidence score for predictions
-- Image preview before prediction
-- Responsive web interface
-- Deployable on Render
-
----
-
-# Technologies Used
-
-- Python
-- TensorFlow
-- Keras
+- Seaborn
 - LangChain
 - FAISS
 - Sentence Transformers
@@ -120,55 +85,28 @@ A deep learning web application that recognizes handwritten digits (0–9) using
 - Flask
 - HTML
 - CSS
-- NumPy
-- Matplotlib
-- Scikit-learn
-- MedMNIST
+- Gymnasium
+- Stable-Baselines3
+- PyTorch
 
----
-
-# Repository Structure
+## Repository Structure
 
 ```
 AI-ML-Projects/
 │
-├── README.md
-├── requirements.txt
-│
-├── CHATBOT/
-│   ├── app.py
-│   ├── loader.py
-│   ├── chunking.py
-│   ├── embeddings.py
-│   ├── rag.py
-│   ├── similarity_search.py
-│   ├── utils.py
-│   ├── vector_store.py
-│   ├── data/
-│   ├── vectorstore/
-│   └── results/
-│
-├── Breast-Cancer-Detection/
-│   ├── breast_cancer_detection.ipynb
-│   └── README.md
-│
-├── Face-Recognition/
-│   ├── face_recognition.ipynb
-│   └── README.md
-│
-├── Image-Classification/
-│   ├── image_classification.ipynb
-│   └── README.md
-│
-└── MNIST-Digit-Classifier/
-    ├── app.py
-    ├── mnist_cnn.keras
-    ├── requirements.txt
-    ├── README.md
-    ├── templates/
-    └── static/
+├── AI-RAG-Chatbot/
+├── Adult_Census_Income/
+├── Brain_MRI_Tumor_Detection/
+├── CartPole_RL_Using_PPO/
+├── Face_Recognition/
+├── Image_Classification/
+├── Lunar_Lander/
+├── Movie_Recommendation/
+├── mnit-render-deployment/
+└── README.md
 ```
-# Installation
+
+## Installation
 
 Clone the repository:
 
@@ -176,17 +114,10 @@ Clone the repository:
 git clone https://github.com/Sparvathy-23/Sree-Parvathy-P-Nair_CNN-Projects.git
 ```
 
-Navigate to the repository:
-
-```bash
-cd Sparvathy-23
-```
-
 Install the required dependencies:
 
 ```bash
 pip install -r requirements.txt
-```
 
 For the RAG Chatbot project, create a `.env` file inside the `CHATBOT` folder and add your Google Gemini API key:
 
@@ -194,23 +125,23 @@ For the RAG Chatbot project, create a `.env` file inside the `CHATBOT` folder an
 GOOGLE_API_KEY=YOUR_API_KEY
 ```
 
----
+Some projects may require additional libraries or API keys (such as Google Gemini for the RAG Chatbot). Refer to the individual project folders for detailed setup instructions.
 
-# Repository Highlights
+## Highlights
 
 - Retrieval-Augmented Generation (RAG)
-- Large Language Model Integration using Google Gemini
-- Semantic Search using FAISS
-- Streamlit-based AI Chatbot
-- Convolutional Neural Networks (CNN)
+- Large Language Model Integration
+- Computer Vision with CNNs
 - Medical Image Classification
 - Face Recognition
-- Fashion Image Classification
-- Handwritten Digit Recognition
-- Flask Web Application Development
-- Deep Learning Model Deployment
-
----
+- Image Classification
+- Reinforcement Learning using PPO
+- Content-Based Recommendation Systems
+- Machine Learning Classification
+- Flask Web Application Deployment
+- Interactive Streamlit Applications
+- Deep Learning Model Training and Evaluation
+```
 
 # Author
 
