@@ -78,9 +78,7 @@ The recommendation system successfully identifies movies with similar themes, ge
 Movie-Recommendation-System/
 │
 ├── movie_recommendation.ipynb
-├── movies.csv
 ├── README.md
-└── results/
 ```
 
 ---
