@@ -71,7 +71,6 @@ Brain-MRI-Tumor-Detection/
 │
 ├── brain_mri_tumor_detection.ipynb
 ├── README.md
-└── results/
 ```
 
 ## Installation
