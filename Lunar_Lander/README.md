@@ -104,10 +104,8 @@ The trained PPO agent successfully learns a stable landing policy for the LunarL
 ```text
 Lunar-Lander-PPO/
 │
-├── lunar_lander_ppo.ipynb
-├── trained_model.zip
+├── lunar_lander_RL.ipynb
 ├── README.md
-└── results/
 ```
 
 ---
