@@ -122,7 +122,6 @@ Performance comparison was used to determine the most effective classifier for t
 Adult-Census-Income-Classification/
 │
 ├── Adult_Census_Income.ipynb
-├── adult_income_results.csv
 ├── README.md
 ```
 
