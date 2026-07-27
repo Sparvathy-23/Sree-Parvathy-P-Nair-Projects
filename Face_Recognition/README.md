@@ -64,7 +64,6 @@ Face-Recognition/
 │
 ├── face_recognition.ipynb
 ├── README.md
-└── results/
 ```
 
 ## Installation
