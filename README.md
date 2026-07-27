@@ -39,7 +39,7 @@ A Convolutional Neural Network that performs multi-class image classification on
 
 ---
 
-### 6. Handwritten Digit Recognition Web Application
+### 6. Handwritten Digit Recognition Web Application (Render Deployment)
 A CNN-powered web application that recognizes handwritten digits (0–9). The trained model is deployed using Flask with a responsive HTML/CSS frontend and is ready for cloud deployment.
 
 **Technologies:** Python, TensorFlow, Flask, HTML, CSS
