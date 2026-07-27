@@ -96,12 +96,10 @@ The trained PPO agent successfully learns to balance the pole for extended durat
 ## Repository Structure
 
 ```text
-CartPole-PPO/
+CartPole_RL_Using_PPO/
 │
 ├── cartpole_ppo.ipynb
-├── trained_model.zip
 ├── README.md
-└── results/
 ```
 
 ---
